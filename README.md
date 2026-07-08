@@ -1,6 +1,6 @@
 # drun-provisionings
 First-party provisioning catalogs for Drun.
 
-This repository holds the substantive tool catalog that Drun prefers ahead of
-its tiny embedded fallback when a sibling first-party checkout is available
-during development and test runs.
+Provisioning is an automatic tool installation procedure for the Drun automation language.
+
+Drun can self provision the installation of tools necessary for the execution of jobs, if specificied by the user.
