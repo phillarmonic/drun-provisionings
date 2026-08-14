@@ -23,3 +23,21 @@ provisionings:
     targets:
       - install: "go install honnef.co/go/tools/cmd/staticcheck@latest"
         install_versioned: "go install honnef.co/go/tools/cmd/staticcheck@v{version}"
+
+  gopls:
+    description: "Install gopls (Go language server) with go install"
+    targets:
+      - install: "go install golang.org/x/tools/gopls@latest"
+        install_versioned: "go install golang.org/x/tools/gopls@v{version}"
+
+  delve:
+    description: "Install Delve debugger with go install"
+    targets:
+      - install: "go install github.com/go-delve/delve/cmd/dlv@latest"
+        install_versioned: "go install github.com/go-delve/delve/cmd/dlv@v{version}"
+
+  air:
+    description: "Install Air live reload for Go with go install"
+    targets:
+      - install: "go install github.com/cosmtrek/air@latest"
+        install_versioned: "go install github.com/cosmtrek/air@v{version}"
